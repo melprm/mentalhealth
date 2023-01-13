@@ -1,0 +1,761 @@
+html,body { margin:0; padding:0; height:100%; width:100%; }
+
+#body{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom:0;
+}
+/* Header */
+#main {
+position: absolute;
+background: #EAF3FA;
+width: 100%;
+height: 77px;
+overflow: hidden;
+}
+
+#tarif {
+position: absolute;
+width: 66px;
+height: 20px;
+font-family: 'Montserrat-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+left: 235px;
+top: 29px;
+bottom: 28px;
+right: 899px;
+margin: 0px;
+}
+#blog {
+position: absolute;
+width: 66px;
+height: 20px;
+font-family: 'Montserrat-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+left: 391px;
+top: 29px;
+bottom: 28px;
+right: 779px;
+margin: 0px;
+}
+#contacts {
+position: absolute;
+width: 66px;
+height: 20px;
+font-family: 'Montserrat-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+left: 521px;
+top: 29px;
+bottom: 28px;
+right: 611px;
+margin: 0px;
+}
+#logo{
+  position: absolute;
+  top: 1px;
+  left: 24px;
+  bottom: 13px;
+  right: 1125px;
+  margin: 0;
+}
+#entrance {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-family: 'Montserrat-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+padding: 8px 30px;
+gap: 10px;
+width: 110px;
+height: 44px;
+background: #FFFFFF;
+border: 2px solid #6385DC;
+border-radius: 8px;
+border-color: #6385DC;
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+top: 17px;
+bottom: 16px;
+right: 24px;
+}
+/* Header End */
+/* Main Block */
+#main-psycho {
+position: absolute;
+width: 824px;
+height: 555px;
+right: 20px;
+top: 40px;
+bottom: 3339px;
+z-index: -2;
+margin: 0;
+}
+#text1 {
+position: absolute;
+width: 443px;
+height: 105px;
+left: 25px;
+top: 185px;
+right: 732px;
+bottom: 3689px;
+font-family: 'Montserrat-SemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 41px;
+color: #000000;
+}
+#application {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 30px;
+gap: 10px;
+position: absolute;
+width: 242px;
+height: 56px;
+top: 351px;
+left: 25px;
+right: 732px;
+background: #6385DC;
+border-radius: 8px;
+border: 0px;
+}
+#application-text {
+width: 184px;
+height: 20px;
+font-family: 'Montserrat-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#text2 {
+position: absolute;
+width: 421px;
+height: 55px;
+left: 25px;
+top: 422px;
+font-family: 'Montserrat-SemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+color: #6B6B6B;
+}
+/* Main Block End */
+/* Benefints */
+#benefits1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px;
+  gap: 10px;
+  width: fit-content;
+  height: 39px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+  border: 2px solid #6385DC;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#text3 {
+  width: fit-content;
+  height: 17px;
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #6385DC;
+  margin: 0;
+}
+#benefits2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px;
+  gap: 10px;
+  width: fit-content;
+  height: 39px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+  border: 2px solid #6385DC;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#text4 {
+  width: fit-content;
+  height: 17px;
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #6385DC;
+  margin: 0;
+}
+#benefits3 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px;
+  gap: 10px;
+  width: fit-content;
+  height: 39px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+  border: 2px solid #6385DC;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#text5 {
+  width: fit-content;
+  height: 17px;
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #6385DC;
+  margin: 0;
+  padding: 0;
+}
+#benefits4 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px;
+  gap: 10px;
+  width: fit-content;
+  height: 39px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+  border: 2px solid #6385DC;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#text6 {
+  width: fit-content;
+  height: 17px;
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #6385DC;
+  margin: 0;
+}
+#all-benefits {
+  display: flex;
+  position: absolute;
+  top: 595px;
+  bottom: 3360;
+  left: 24px;
+  right: 25px;
+  height: 40px;
+  justify-content: space-between;
+}
+#text7 {
+  position: absolute;
+  width: 473px;
+  height: 34px;
+  left: 25px;
+  top: 698px;
+  font-family: 'Montserrat-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #000000;
+}
+#help {
+ display: flex;
+ position: absolute;
+ top: 766px;
+ bottom: 3064px;
+ left: 24px;
+ right: 25px;
+ height: 40px;
+ margin-top: 34px;
+ justify-content: space-between;
+}
+.sadness {
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.panic {
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.alarm {
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.sleep {
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.depression {
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.social {
+  font-family: 'Inter-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+#help2 {
+ display: flex;
+ position: absolute;
+ top: 936px;
+ bottom: 3014px;
+ left: 24px;
+ right: 25px;
+ height: 40px;
+ margin-top: 34px;
+ justify-content: space-between;
+}
+/* Benefits End */
+/* Motivation */
+#motivation1 {
+  position: absolute;
+  width: 565px;
+  height: 202px;
+  left: 25px;
+  top: 1043px;
+  margin-top: 64px;
+  margin-right: 20px;
+  background: #A8D2A0;
+  border-radius: 14px;
+}
+.motivation1-1 {
+  position: absolute;
+  width: 324px;
+  height: 55px;
+  left: 32px;
+  font-family: 'Montserrat-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+.motivation1-2 {
+  position: absolute;
+  width: 400px;
+  height: 55px;
+  left: 32px;
+  margin-top: 93px;
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+#choose-pana {
+  position: absolute;
+  width: 107px;
+  height: 111px;
+  left: 449px;
+  top: 23px;
+}
+#motivation2 {
+  position: absolute;
+  width: 565px;
+  height: 297px;
+  left: 25px;
+  top: 1320px;
+  background: #CEDFF9;
+  border-radius: 14px;
+}
+.motivation2-1 {
+  position: absolute;
+  width: 324px;
+  height: 55px;
+  left: 32px;
+  font-family: 'Montserrat-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+.motivation2-2 {
+  position: absolute;
+  width: 400px;
+  height: 55px;
+  left: 32px;
+  margin-top: 93px;
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+#love-pana {
+  position: absolute;
+  left: 44.92%;
+  right: -7.85%;
+  top: 22.03%;
+  bottom: -5.32%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#motivation3 {
+  position: absolute;
+  margin-top: 64px;
+  width: 57%;
+  height: 511px;
+  left: 610px;
+  top: 1043px;
+  background: #EAF3FA;
+  border-radius: 14px;
+}
+  .motivation3-1 {
+    position: absolute;
+    width: 360px;
+    height: 55px;
+    left: 32px;
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+  }
+  .motivation3-2 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 32px;
+    margin-top: 93px;
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+  }
+  #work-time-pana1 {
+    position: absolute;
+    width: 500px;
+    height: 552px;
+    left: 340px;
+    top: -42px;
+    z-index: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #work-time-pana2 {
+    position: absolute;
+    top: 260px;
+    left: 9px;
+  }
+  /* Motivation End */
+  /* Psychologists Show */
+  #psyhologists {
+  position: absolute;
+  width: 98%;
+  height: 340px;
+  left: 24px;
+  top: 1618px;
+  background: #FFE9E7;
+  backdrop-filter: blur(2px);
+  border-radius: 14px;
+  margin-top: 18px;
+}
+.text-psychologists {
+  width: 100%;
+}
+.text9 {
+  position: absolute;
+  width: 416px;
+  height: 54px;
+  left: 28px;
+  top: 23px;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+#psyhologists-show {
+  position: absolute;
+  display: flex;
+  width: 1096px;
+  height: 164px;
+  left: 24px;
+  gap: 135px;
+  top: calc(50% - 164px/2 + 34px);
+  margin-top: 27px;
+  justify-content: space-between;
+}
+.psycho {
+  border-radius: 50%;
+  border: solid 5px white;
+}
+  /* Psychologists Show End */
+
+  /* Helpfull */
+  #helpfull {
+    position: absolute;
+    left: 688px;
+    right: 208px;
+    top: 1942.18px;
+    bottom: 2010.2px;
+    height: 50px;
+    width: fit-content;
+    margin-top: 53.18px;
+    margin-bottom: 18.2px;
+  }
+  #helpfull-text {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  text-align: left;
+  margin-left: 120px;
+}
+  /* Helpfull End */
+
+#conversation-sofa {
+  position: absolute;
+  width: 472px;
+  height: 263px;
+  left: 23px;
+  right: 705px;
+  bottom: 1700px;
+  top: 2031px;
+  margin-top: 193px;
+}
+#text-block1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 676px;
+  height: 326px;
+  left: 638px;
+  top: 2100px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#check-h1 {
+  font-family: 'Montserrat-Medium';
+  font-size: 16px;
+  line-height: 20px;
+  color: #6385DC;
+}
+#check-p1 {
+  font-family: 'Montserrat-Medium';
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+#text-block2 {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#check-h2 {
+  font-family: 'Montserrat-Medium';
+  font-size: 16px;
+  line-height: 20px;
+  color: #6385DC;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#check-p2 {
+  font-family: 'Montserrat-Medium';
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+#text-block3 {
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+#check-h3 {
+  font-family: 'Montserrat-Medium';
+  font-size: 16px;
+  line-height: 20px;
+  color: #6385DC;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+#check-p3 {
+  font-family: 'Montserrat-Medium';
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+#application2 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 30px;
+gap: 10px;
+position: absolute;
+width: 242px;
+height: 56px;
+left: 637px;
+right: 445px;
+bottom: 1550px;
+top: 2388px;
+background: #6385DC;
+border-radius: 8px;
+border: 0px;
+margin-top: 120px;
+margin-bottom: 49px;
+}
+#application-text2 {
+width: 184px;
+height: 20px;
+font-family: 'Montserrat-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.steps {
+  position: absolute;
+  left: 394px;
+  right: 394px;
+  top: 2493px;
+  bottom: 1433px;
+  margin-top: 149px;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #3778DE;
+}
+#grid-steps {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:space-around;
+  left: 24px;
+  right: 23px;
+  top: 2770px;
+}
+.steps2 {
+  position: absolute;
+  left: 281px;
+  right: 281px;
+  top: 2942px;
+  bottom: 998px;
+  margin-top: 149px;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #000000;
+}
+#review-slider {
+  position: absolute;
+  width: 948px;
+  height: 406px;
+  left: 119px;
+  top: 3063px;
+}
+#application-text3 {
+  width: 184px;
+  height: 20px;
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }

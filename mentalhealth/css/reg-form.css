@@ -1,0 +1,114 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;   
+}
+.fields {
+    background-color: #FFE9E7;
+    padding: 32px 40px;
+    gap: 34px;
+    position: relative;
+    width: 663px;
+    height: 392px;
+    border-radius: 14px;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 583px;
+    height: 136px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.name {
+    width: 279.5px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    font-family: "Montserrat-Regular";
+}
+.phone {
+    width: 279.5px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    font-family: "Montserrat-Regular";
+}
+.email {
+    width: 583px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: "Montserrat-Regular";
+}
+.orient {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 583px;
+    height: 56px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    font-family: "Montserrat-SemiBold";
+}
+.psycho {
+    width: 184px;
+    height: 20px;
+    font-family: 'Montserrat-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.knopka {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 30px;
+    gap: 10px;
+    width: 583px;
+    height: 56px;
+    background: #6385DC;
+    border-radius: 8px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;
+    margin-top: 34px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 32px;
+}
